@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         will: {
             name: "Will K",
             role: "Host | Your resident coder",
-            bio: "Will keeps the show moving with quick wit, big ideas, and a love for building things. Expect tech tangents, curious questions, and plenty of laughs along the way."
+            bio: "Will is the host of the show. He brings the fun and random energy. Will, when he's not podcasting, Loves to play cosy games like Animal Crossing New Horizons, and is a big fan of all things Nintendo. He also loves to cycle and code! Will also edits our episodes and is incharge of our social media. A quote he lives by is \"Never put off until tomorrow what can be done today\" (By the way yes I know this is from Ninjago)."
         },
         jay: {
             name: "Jay B",
