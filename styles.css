@@ -542,6 +542,21 @@ body.modal-open {
     margin-bottom: 1rem;
 }
 
+.contact .cta-buttons {
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.contact .btn-primary {
+    background-color: var(--primary-red);
+    color: var(--text-light);
+}
+
+.contact .btn-secondary {
+    border-color: var(--primary-red);
+    color: var(--primary-red);
+}
+
 .contact-email {
     text-align: center;
     font-size: 1.05rem;
