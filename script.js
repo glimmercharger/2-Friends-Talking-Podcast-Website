@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         jay: {
             name: "Jay B",
             role: "Co-host | First Aider",
-            bio: "Jay brings calm energy, real-world perspective, and a talent for turning everyday moments into great stories. Honest chats, friendly banter, and good vibes guaranteed."
+            bio: "Jay is the co-host of the show. He is a first aider with St. John's Ambulance. He is also a big fan of all things Roblox! In his free time, Jay loves to drink Starbucks and learn about first aid. A quote he lives by is \"Always be dreaming as it could be the next big thing.\"."
         }
     };
 
