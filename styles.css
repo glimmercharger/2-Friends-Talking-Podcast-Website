@@ -542,6 +542,18 @@ body.modal-open {
     margin-bottom: 1rem;
 }
 
+.contact-email {
+    text-align: center;
+    font-size: 1.05rem;
+    color: var(--text-dark);
+    margin-top: 1.5rem;
+}
+
+.contact-email a {
+    color: var(--primary-red);
+    font-weight: 600;
+}
+
 .contact-form {
     max-width: 600px;
     margin: 3rem auto;
