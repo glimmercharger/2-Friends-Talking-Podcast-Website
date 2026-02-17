@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalTitle = document.getElementById("host-modal-title");
     const modalRole = document.getElementById("host-modal-role");
     const modalBio = document.getElementById("host-modal-bio");
+    const modalCredit = document.getElementById("host-modal-credit");
     const closeButton = modal?.querySelector(".modal-close");
     const hostButtons = document.querySelectorAll(".host-card--trigger");
 
@@ -10,7 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
         will: {
             name: "Will K",
             role: "Host | Your resident coder",
-            bio: "Will is the host of the show. He brings the fun and random energy. Will, when he's not podcasting, Loves to play cosy games like Animal Crossing New Horizons, and is a big fan of all things Nintendo. He also loves to cycle and code! Will also edits our episodes and is incharge of our social media. A quote he lives by is \"Never put off until tomorrow what can be done today\" (By the way yes I know this is from Ninjago)."
+            bio: "Will is the host of the show. He brings the fun and random energy. Will, when he's not podcasting, Loves to play cosy games like Animal Crossing New Horizons, and is a big fan of all things Nintendo. He also loves to cycle and code! Will also edits our episodes and is incharge of our social media. A quote he lives by is \"Never put off until tomorrow what can be done today\" (By the way yes I know this is from Ninjago).",
+            credit: "Thank you to @reelrollsweat for designing the profile picture! - If you want to make one you can make one for free <a href=\"https://picrew.me/en/image_maker/2069970\" target=\"_blank\">here</a>."
         },
         jay: {
             name: "Jay B",
@@ -28,6 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
         modalTitle.textContent = details.name;
         modalRole.textContent = details.role;
         modalBio.textContent = details.bio;
+        
+        if (details.credit) {
+            modalCredit.innerHTML = details.credit;
+            modalCredit.style.display = "block";
+        } else {
+            modalCredit.style.display = "none";
+        }
+        
         modal.classList.add("is-open");
         modal.setAttribute("aria-hidden", "false");
         document.body.classList.add("modal-open");

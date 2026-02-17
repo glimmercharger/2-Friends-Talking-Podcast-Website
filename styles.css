@@ -364,6 +364,20 @@ a {
     line-height: 1.7;
 }
 
+.host-modal__credit {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+}
+
+.host-modal__credit a {
+    color: var(--primary-red);
+    text-decoration: underline;
+}
+
 .modal-close {
     position: absolute;
     top: 16px;
