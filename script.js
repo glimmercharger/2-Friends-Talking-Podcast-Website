@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
         jay: {
             name: "Jay B",
             role: "Co-host | First Aider",
-            bio: "Jay is the co-host of the show. He is a first aider with St. John's Ambulance. He is also a big fan of all things Roblox! In his free time, Jay loves to drink Starbucks and learn about first aid. A quote he lives by is \"Always be dreaming as it could be the next big thing.\"."
+            bio: "Jay is the co-host of the show. He is a first aider with St. John's Ambulance. He is also a big fan of all things Roblox! In his free time, Jay loves to drink Starbucks and learn about first aid. A quote he lives by is \"Always be dreaming as it could be the next big thing.\".",
+            credit: "Thank you to @reelrollsweat for designing the profile picture! - If you want to make one you can make one for free <a href=\"https://picrew.me/en/image_maker/2069970\" target=\"_blank\">here</a>."
         }
     };
 
